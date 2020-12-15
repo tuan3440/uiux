@@ -1,0 +1,151 @@
+.g-row{
+    display: block;
+}
+.g-row-3{
+    height: 200px;
+    background-color: grey;
+    color: yellow;
+}
+.g-row-3-banphimtrai{
+    font-size: 12px;
+    float: left;
+    display: block;
+    width:70%;
+    background-color: red;
+    height: 200px;
+}
+.g-row-3-banphimphai{
+    float: left;
+    display: block;
+    width:30%;
+    background-color: blue;
+    height: 200px;
+}
+.phim{
+    width:35px;
+    height:35px;
+    background-color: black;
+    display: block;
+    float: left;
+    margin: 2px;
+}
+.phimbackspace{
+    width:90px;
+    height:35px;
+    background-color: black;
+    display: block;
+    float: left;
+    margin: 2px;
+}
+.hangphim{
+    display: flex;
+    width:100%;
+    height:38px;
+}
+.hangphimphai{
+    display: flex;
+    width:100%;
+    height:48px;
+}
+.hangphimphaicuoi{
+    display: flex;
+    height:48px;
+    
+}
+.spacebanphimphai{
+    width:100%;
+    background-color: black;
+}
+.phimphai{
+    text-align: center;
+    width:35px;
+    height:45px;
+    background-color: black;
+    display: block;
+    float: left;
+    margin: 2px;
+}
+.nuaphimtren{
+    width:100%;
+    height:50%;
+    text-align: center;
+}
+.nuaphimduoi{
+    width:100%;
+    height:50%;
+    text-align: left  ;
+    font-size: 9;
+}
+.phimmotminh{
+    width:100%;
+    height:100%;
+    text-align: center  ;
+}
+.backspace{
+    width:100%;
+    height:100%;
+    text-align: center;
+}
+.phimtab{
+    width:50px;
+    height:35px;
+    background-color: black;
+    display: block;
+    float: left;
+    margin: 2px;
+}
+.phimcapslock{
+    width:70px;
+    height:35px;
+    background-color: black;
+    display: block;
+    float: left;
+    margin: 2px;
+}
+.phimenter{
+    width:90px;
+    height:35px;
+    background-color: black;
+    display: block;
+    float: left;
+    margin: 2px;
+}
+.phimshift{
+    width:100px;
+    height:35px;
+    background-color: black;
+    display: block;
+    float: left;
+    margin: 2px;
+}
+.phimspace{
+    width:160px;
+    height:35px;
+    background-color: black;
+    display: block;
+    float: left;
+    margin: 2px;
+}
+.g-row-3-bantaytrai{
+    float: left;
+    display: block;
+    width:50%;
+    background-color: red;
+}
+.g-row-3-bantayphai{
+    float: left;
+    display: block;
+    width:25%;
+    background-color: blue;
+    
+}
+.g-item{
+    /* float: left; */
+    display: inline;
+}
+.g-tieude{
+    /* background-color: rgb(179, 249, 163); */
+}
+.g-amcango{
+    background-color: rgb(179, 249, 163);
+}
