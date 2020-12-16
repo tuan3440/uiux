@@ -303,6 +303,8 @@ body {}
 .header-top-menu .navbar-nav>li a .angle-down-topmenu{
 	margin-left:4px;
 }
+
+
 .header-top-menu .navbar-nav>li>a:hover{
 	color: #03a9f4;
 }
@@ -2613,13 +2615,13 @@ li.multipleInput-email {
     padding: 4px 10px;
     border-radius: 2px;
 }
-li.multipleInput-email a{
+/* li.multipleInput-email a{
     background: #none;
     color: #fff;
     margin-left: 4px;
     display: inline-block;
     padding: 0px 1px;
-}
+} */
 .form-horizontal .control-label{
 	padding-top: 10px;
 }

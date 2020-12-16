@@ -50,7 +50,7 @@
 .hangphimphaicuoi{
     display: flex;
     height:48px;
-    
+    padding-left: 112px;
 }
 .spacebanphimphai{
     width:100%;
@@ -148,4 +148,10 @@
 }
 .g-amcango{
     background-color: rgb(179, 249, 163);
+}
+.spantime
+{
+cursor:pointer;
+color:white;
+background:black;
 }
