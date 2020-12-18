@@ -1,7 +1,6 @@
 .g-row{
     font-family: Arial, Helvetica, sans-serif;
     display: block;
-    padding-left: 20px;
 }
 .g-row-3 {
     height: 218px;
@@ -16,7 +15,6 @@
     width:60%;
     /* background-color: rgb(182 197 249); */
     height: 200px;
-    margin-left: 50px;
 }
 .g-row-3-banphimphai{
     max-width: 378px;
@@ -25,7 +23,6 @@
     width:39%;
     /* background-color: #b5b5ec; */
     height: 200px;
-    margin-left: 154px;
 }
 .phim{
     width:35px;

@@ -1,0 +1,40 @@
+.footer-kiendt{
+    position: absolute;
+    z-index: 10000;
+    bottom: 0;
+    width: calc(100vw - 200px);
+    left: 200px;    
+    background: #006DF0;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    height: 50px;
+}
+
+.dtkien-content{
+    position: relative;
+    top: 0;
+    height: calc(100vh - 144px);
+    background-color: #eeeeee;
+}
+
+.dtkien-text-area{
+    width: 440px;
+}
+
+.dtkien-button-convert{
+    color: rgb(241, 235, 235);
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: rgb(88, 167, 0);
+    border-color: #c7c4c4;
+    min-width: 130px;
+    border-width: 2px 2px 4px !important;
+    font-weight: 700;
+    letter-spacing: .8px;
+    text-transform: uppercase;
+    border-style: solid;
+    transform: translateZ(0);
+    transition: filter .2s;
+    height: 70px;
+}
