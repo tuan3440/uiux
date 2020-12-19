@@ -4821,3 +4821,12 @@ div#sparklinehome canvas {
     color: #ffffff;
   }
   
+  .active{
+      background-color: #006df0;
+      color: white !important;
+  }
+
+  .active :hover{
+      background-color: #006DF0 !important;
+      color: white !important;
+  }
