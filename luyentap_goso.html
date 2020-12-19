@@ -89,9 +89,13 @@
                                     <ul class="submenu-angle" aria-expanded="false">
                                         <li><a title="Làm quen với bàn phím" href="lamquenbanphim.html"><span class="mini-sub-pro">Làm quen bàn phím</span></a></li>
                                         <li><a title="Âm đầu" href="amdau.html"><span class="mini-sub-pro">Gõ âm đầu</span></a></li>
-                                        <li><a title="Âm chính" href="amchinh.html"><span class="mini-sub-pro">Gõ gõ âm chính</span></a></li>
-                                        <li><a title="Âm cuối" href="amcuoi.html"><span class="mini-sub-pro">Gõ gõ âm cuối</span></a></li>                      </ul>
-                        </li>
+                                        <li><a title="Âm chính" href="amchinh.html"><span class="mini-sub-pro">Gõ âm chính</span></a></li>
+                                        <li><a title="Âm cuối" href="amcuoi.html"><span class="mini-sub-pro">Gõ âm cuối</span></a></li>  
+                                        <li><a title="Gõ số" href="goso.html"><span class="mini-sub-pro">Gõ số</span></a></li>
+                                        <li><a title="Xóa" href="xoa.html"><span class="mini-sub-pro">Quy tắc xóa</span></a></li> 
+                                    </ul>
+                                        
+                                    </li>
                         <li>
                             <a class="has-arrow" href=" " aria-expanded="false"><i class="fas fa-dumbbell"></i> <span
                                     class="mini-click-non">Luyện tập</span></a>
@@ -106,6 +110,12 @@
                                     class="educate-icon educate-course icon-wrap"></span>Thống kê</a>
 
                         </li>
+                        <li>
+                            <a href="chuyen-doi-ky-tu.html" aria-expanded="false"
+                              ><i class="fas fa-exchange-alt"></i>
+                              <span class="mini-click-non"></span>Chuyển đổi ký tự</a
+                            >
+                          </li>
                     </ul>
                 </nav>
             </div>
@@ -605,7 +615,7 @@
                 <div class="g-row   ">
                      <br>
                 <h3 style="color: deepskyblue;
-                top: 69px;margin-left:50px;">Luyện tập gõ từ</h3>
+                top: 69px;margin-left:50px;">Luyện tập gõ âm đầu</h3>
                 <br>
 
                 </div><br>
@@ -617,13 +627,13 @@
                     <br>
                     <div>
                     <span id="thoigian">
-                        <span class="spantime btn btn-info" id="over1" onmouseover="over1('red')" onmouseout="out1('black')"
+                        <span class="btn btn-info" id="over1" onmouseover="over1('red')" onmouseout="out1('#5bc0de')"
                             onclick="start()">
                             Start</span>
-                        <span class="spantime btn btn-info" id="over2" onmouseover="over2('red')" onmouseout="out2('black')"
+                        <span class="btn btn-info" id="over2" onmouseover="over2('red')" onmouseout="out2('#5bc0de')"
                             onclick="stop()">
                             Stop</span>
-                        <span class="spantime btn btn-info" id="over3" onmouseover="over3('red')" onmouseout="out3('black')"
+                        <span class="btn btn-info" id="over3" onmouseover="over3('red')" onmouseout="out3('#5bc0de')"
                             onclick="reset()">
                             Reset</span>
                             <br>
@@ -820,34 +830,34 @@
                                 <div class="phimmotminh">X</div>
                             </div>
                             <div class="phim c">
-                                <div class="upper">U</div>
-                                <div class="lower-left">C</div>
+                                <div class="nuaphimtren">U</div>
+                                <div class="nuaphimduoi">C</div>
                             </div>
                             <div class="phim v">
-                                <div class="upper">O</div>
-                                <div class="lower-left">V</div>
+                                <div class="nuaphimtren">O</div>
+                                <div class="nuaphimduoi">V</div>
                             </div>
                             <div class="phim b">
                                 <div class="phimmotminh">B</div>
                             </div>
                             <div class="phim n">
-                                <div class="upper">E</div>
-                                <div class="lower-left">N</div>
+                                <div class="nuaphimtren">E</div>
+                                <div class="nuaphimduoi">N</div>
                             </div>
                             <div class="phim m">
-                                <div class="upper">A</div>
-                                <div class="lower-left">M</div>
+                                <div class="nuaphimtren">A</div>
+                                <div class="nuaphimduoi">M</div>
                             </div>
                             <div class="phim ,">
-                                <div class="upper">&lt;</div>
+                                <div class="nuaphimtren">&lt;</div>
                                 <div class="lower">,</div>
                             </div>
                             <div class="phim .">
-                                <div class="upper">&gt;</div>
+                                <div class="nuaphimtren">&gt;</div>
                                 <div class="lower">.</div>
                             </div>
                             <div class="phim /">
-                                <div class="upper">?</div>
+                                <div class="nuaphimtren">?</div>
                                 <div class="lower">/</div>
                             </div>
                             <div class="phimshift" id="Shift">
@@ -1154,17 +1164,33 @@
 
         var tuDien = [
             {
-                phimthuong: ["q", "w"],
-                phimtocky: "ch"
+                phimthuong: ["p"],
+                phimtocky: "9"
             },
             {
-                phimthuong: ["a", "w"],
-                phimtocky: "nh"
+                phimthuong: ["e"],
+                phimtocky: "3"
             },
             {
-                phimthuong: ["q", "s"],
-                phimtocky: "d"
-            }
+                phimthuong: ["w"],
+                phimtocky: "2"
+            },
+            {
+                phimthuong: ["q"],
+                phimtocky: "1"
+            },
+            {
+                phimthuong: ["t"],
+                phimtocky: "5"
+            },
+            {
+                phimthuong: ["r"],
+                phimtocky: "4"
+            },
+            {
+                phimthuong: ["o"],
+                phimtocky: "8"
+            },
         ]
         var tuDien2 = [
             {
@@ -1177,90 +1203,118 @@
             },
         ]
         // console.log(tuDien["a"]);
-        var element = tuDien[Math.random() < 0.5 ? 0 : 1];
-        console.log(element)
-        document.getElementById("amcango").innerHTML = element.phimtocky;
-        element.phimthuong.forEach(e=>{
-            let a = document.getElementsByClassName(e);
+    var k = 0;
+    var element = tuDien[k];
+    console.log(element)
+    // khởi tạo âm cần gõ
+    document.getElementById("amcango").innerHTML = element.phimtocky;
+    // tô màu phím cần gõ
+    element.phimthuong.forEach(e => {
+        var a = document.getElementsByClassName(e);
+        var i;
+        for (i = 0; i < a.length; i++) {
+            a[i].style.backgroundColor = "#005affbf";
+            a[i].style.fill = "#005affbf";
+        }
+    })
+
+
+
+
+    // tuDien.forEach(async element => {
+    var phimDaGo = [];
+    window.addEventListener('keydown', function (event) {
+        // nếu phím vừa gõ chưa có trong phím đã gõ thì thêm vào
+        if (!phimDaGo.includes(event.key.toLocaleLowerCase())) {
+            phimDaGo.push(event.key.toLocaleLowerCase());
+        }
+        solango++;
+        document.getElementById("solango").innerHTML = Number(solango);
+
+        // document.getElementById("amcango").innerHTML = element.phimtocky;
+        // var a = document.getElementsByClassName(element.phimthuong);
+        // var i;
+        // for (i = 0; i < a.length; i++) {
+        //     a[i].style.backgroundColor = "#005affbf";
+        //     a[i].style.fill = "#005affbf";
+        // }
+
+        // lấy class của phím đã gõ    
+        var x = document.getElementsByClassName(event.key.length > 1 ? event.key : event.key.toLowerCase());
+        // nếu phím đã gõ nằm trong các phím cần gõ
+        if (element.phimthuong.includes(event.key.toLowerCase())) {
+            sotugodung++;
+            document.getElementById("sotugodung").innerHTML = Number(sotugodung);
+            // set màu cho phím gõ đúng 
             var i;
-            for (i = 0; i < a.length; i++) {
-                a[i].style.backgroundColor = "orange";
-                a[i].style.fill = "orange";
+            for (i = 0; i < x.length; i++) {
+                x[i].style.backgroundColor = "green";
+                x[i].style.fill = "green";
             }
-        })
+        } else {
+            // không đúng set màu đỏ
+            var i;
+            for (i = 0; i < x.length; i++) {
+                x[i].style.backgroundColor = "red";
+                x[i].style.fill = "red";
+            }
+        }
 
-       
 
 
-
-        // tuDien.forEach(async element => {
-        var sophim=element.phimthuong.length;
-        window.addEventListener('keydown', function (event) {
-            solango++;
-            document.getElementById("solango").innerHTML = Number(solango);
-            document.getElementById("amcango").innerHTML = element.phimtocky;
-            element.phimthuong.forEach(e=>{
-                let a = document.getElementsByClassName(e);
+    });
+    window.addEventListener('keyup', function (event) {
+        // nếu đủ
+        if (JSON.stringify(element.phimthuong.sort()) == JSON.stringify(phimDaGo.sort())) {
+            element.phimthuong.forEach(e => {
+                var a = document.getElementsByClassName(e);
                 var i;
                 for (i = 0; i < a.length; i++) {
-                    a[i].style.backgroundColor = "orange";
-                    a[i].style.fill = "orange";
+                    a[i].style.backgroundColor = "#2b2b2b";
+                    a[i].style.fill = "#2b2b2b";
                 }
             })
+            k = k < tuDien.length-1 ? k+1 : 0;
+            element = tuDien[k];
 
-            var x = document.getElementsByClassName(event.key.length > 1 ? event.key : event.key.toLowerCase());
-            if (element.phimthuong.includes(event.key.toLowerCase())) {
-                sophim--;
-                sotugodung++;
-                document.getElementById("sotugodung").innerHTML = Number(sotugodung);
-
-                var i;
-                for (i = 0; i < x.length; i++) {
-                    x[i].style.backgroundColor = "yellow";
-                    x[i].style.fill = "yellow";
-                }
-            } else {
-                sophim=element.phimthuong.length;
-                var i;
-                for (i = 0; i < x.length; i++) {
-                    x[i].style.backgroundColor = "red";
-                    x[i].style.fill = "red";
-                }
+            console.log("phimthuong: ", element.phimthuong)
+            phimDaGo = [];
+            document.getElementById("amcango").innerHTML = element.phimtocky;
+            // var a = document.getElementsByClassName(element.phimthuong);
+            
+        }
+        console.log(phimDaGo)
+        // lấy class của phím vừa nhả 
+        var x = document.getElementsByClassName(event.key.length > 1 ? event.key : event.key.toLowerCase());
+        // nếu có trong phím cần gõ
+        if (element.phimthuong.includes(event.key.toLowerCase())) {
+            // lại màu cho phím cần gõ
+            var i;
+            for (i = 0; i < x.length; i++) {
+                x[i].style.backgroundColor = "#005affbf";
+                x[i].style.fill = "#005affbf";
             }
 
-
-
-        });
-        window.addEventListener('keyup', function (event) {
-            var x = document.getElementsByClassName(event.key.length > 1 ? event.key : event.key.toLowerCase());
-            if (element.phimthuong.includes(event.key.toLowerCase())&&sophim<=1) {
-                //next
-                console.log("key up dung")
-                var i;
-                for (i = 0; i < x.length; i++) {
-                    x[i].style.backgroundColor = "black";
-                    x[i].style.fill = "black";
-
-                }
-                element = tuDien[Math.random() < 0.5 ? 0 : 1];
-                document.getElementById("amcango").innerHTML = element.phimtocky;
-                var a = document.getElementsByClassName(element.phimthuong);
-                var i;
-                for (i = 0; i < a.length; i++) {
-                    a[i].style.backgroundColor = "orange";
-                    a[i].style.fill = "orange";
-                }
-            } else {
-                var i;
-                for (i = 0; i < x.length; i++) {
-                    x[i].style.backgroundColor = "black";
-                    x[i].style.fill = "black";
-                }
+        } else {
+            phimDaGo = [];
+            var i;
+            for (i = 0; i < x.length; i++) {
+                x[i].style.backgroundColor = "#2b2b2b";
+                x[i].style.fill = "#2b2b2b";
             }
-            document.getElementById("dochinhxac").innerHTML = solango == 0 ? 0 : Math.ceil(100 * sotugodung / solango) + "%";
-        });
+        }
+        // tô màu phím cần gõ
+        element.phimthuong.forEach(e => {
+            var a = document.getElementsByClassName(e);
+            var i;
+            for (i = 0; i < a.length; i++) {
+                a[i].style.backgroundColor = "#005affbf";
+                a[i].style.fill = "#005affbf";
+            }
+        })
+        document.getElementById("dochinhxac").innerHTML = solango == 0 ? 0 : Math.ceil(100 * sotugodung / solango) + "%";
+    });
 
-    // });
 
 
 
@@ -1311,7 +1365,7 @@
         function over3(test) { document.getElementById('over3').style.background = test }
         function out3(test) { document.getElementById('over3').style.background = test }
     </script>
-<script
+    <script
       src="https://kit.fontawesome.com/80d53d31a7.js"
       crossorigin="anonymous"
     ></script></body>

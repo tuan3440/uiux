@@ -625,13 +625,13 @@
                     <div class="g-item">Phím khác</div>
                     <div class="g-item">Thời gian</div>
                     <span id="thoigian">
-                        <span class="spantime" id="over1" onmouseover="over1('red')" onmouseout="out1('black')"
+                        <span class="spantime" id="over1" onmouseover="over1('red')" onmouseout="out1('#5bc0de')"
                             onclick="start()">
                             Start</span>
-                        <span class="spantime" id="over2" onmouseover="over2('red')" onmouseout="out2('black')"
+                        <span class="spantime" id="over2" onmouseover="over2('red')" onmouseout="out2('#5bc0de')"
                             onclick="stop()">
                             Stop</span>
-                        <span class="spantime" id="over3" onmouseover="over3('red')" onmouseout="out3('black')"
+                        <span class="spantime" id="over3" onmouseover="over3('red')" onmouseout="out3('#5bc0de')"
                             onclick="reset()">
                             Reset</span>
                         <form>
@@ -821,34 +821,34 @@
                                 <div class="phimmotminh">X</div>
                             </div>
                             <div class="phim c">
-                                <div class="upper">U</div>
-                                <div class="lower-left">C</div>
+                                <div class="nuaphimtren">U</div>
+                                <div class="nuaphimduoi">C</div>
                             </div>
                             <div class="phim v">
-                                <div class="upper">O</div>
-                                <div class="lower-left">V</div>
+                                <div class="nuaphimtren">O</div>
+                                <div class="nuaphimduoi">V</div>
                             </div>
                             <div class="phim b">
                                 <div class="phimmotminh">B</div>
                             </div>
                             <div class="phim n">
-                                <div class="upper">E</div>
-                                <div class="lower-left">N</div>
+                                <div class="nuaphimtren">E</div>
+                                <div class="nuaphimduoi">N</div>
                             </div>
                             <div class="phim m">
-                                <div class="upper">A</div>
-                                <div class="lower-left">M</div>
+                                <div class="nuaphimtren">A</div>
+                                <div class="nuaphimduoi">M</div>
                             </div>
                             <div class="phim ,">
-                                <div class="upper">&lt;</div>
+                                <div class="nuaphimtren">&lt;</div>
                                 <div class="lower">,</div>
                             </div>
                             <div class="phim .">
-                                <div class="upper">&gt;</div>
+                                <div class="nuaphimtren">&gt;</div>
                                 <div class="lower">.</div>
                             </div>
                             <div class="phim /">
-                                <div class="upper">?</div>
+                                <div class="nuaphimtren">?</div>
                                 <div class="lower">/</div>
                             </div>
                             <div class="phimshift" id="Shift">
@@ -1174,14 +1174,14 @@
             },
         ]
         // console.log(tuDien["a"]);
-        var element = tuDien[Math.random() < 0.5 ? 0 : 1];
+        var element = tuDien[Math.floor(Math.random()*tuDien.length)];
         console.log(element)
         document.getElementById("amcango").innerHTML = element.phimtocky;
         element.phimthuong.forEach(e=>{
             let a = document.getElementsByClassName(e);
             var i;
             for (i = 0; i < a.length; i++) {
-                a[i].style.backgroundColor = "orange";
+                a[i].style.backgroundColor = "#005affbf";
                 a[i].style.fill = "orange";
             }
         })
@@ -1200,7 +1200,7 @@
                 let a = document.getElementsByClassName(e);
                 var i;
                 for (i = 0; i < a.length; i++) {
-                    a[i].style.backgroundColor = "orange";
+                    a[i].style.backgroundColor = "#005affbf";
                     a[i].style.fill = "orange";
                 }
             })
@@ -1213,8 +1213,8 @@
 
                 var i;
                 for (i = 0; i < x.length; i++) {
-                    x[i].style.backgroundColor = "yellow";
-                    x[i].style.fill = "yellow";
+                    x[i].style.backgroundColor = "green";
+                    x[i].style.fill = "green";
                 }
             } else {
                 sophim=element.phimthuong.length;
@@ -1235,8 +1235,8 @@
                 console.log("key up dung")
                 var i;
                 for (i = 0; i < x.length; i++) {
-                    x[i].style.backgroundColor = "black";
-                    x[i].style.fill = "black";
+                    x[i].style.backgroundColor = "#2b2b2b";
+                    x[i].style.fill = "#2b2b2b";
 
                 }
                 element = tuDien[Math.random() < 0.5 ? 0 : 1];
@@ -1244,14 +1244,14 @@
                 var a = document.getElementsByClassName(element.phimthuong);
                 var i;
                 for (i = 0; i < a.length; i++) {
-                    a[i].style.backgroundColor = "orange";
+                    a[i].style.backgroundColor = "#005affbf";
                     a[i].style.fill = "orange";
                 }
             } else {
                 var i;
                 for (i = 0; i < x.length; i++) {
-                    x[i].style.backgroundColor = "black";
-                    x[i].style.fill = "black";
+                    x[i].style.backgroundColor = "#2b2b2b";
+                    x[i].style.fill = "#2b2b2b";
                 }
             }
             document.getElementById("dochinhxac").innerHTML = solango == 0 ? 0 : Math.ceil(100 * sotugodung / solango) + "%";

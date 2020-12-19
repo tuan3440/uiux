@@ -8,7 +8,7 @@
 	var piechart = new Chart(ctx, {
 		type: 'pie',
 		data: {
-			labels: ["Red", "Orange", "Yellow", "Green", "Blue"],
+			labels: ["Red", "Orange", "green", "Green", "Blue"],
 			datasets: [{
 				label: 'pie Chart',
                 backgroundColor: [
@@ -32,7 +32,7 @@
 	var polarchart = new Chart(ctx, {
 		type: 'polarArea',
 		data: {
-			labels: ["Red", "Orange", "Yellow", "Green", "Blue"],
+			labels: ["Red", "Orange", "green", "Green", "Blue"],
 			datasets: [{
 				label: 'pie Chart',
 				data: [10, 20, 30, 40, 60],
@@ -114,7 +114,7 @@
 	var Doughnutchart = new Chart(ctx, {
 		type: 'radar',
 		data: {
-			labels: ["Red", "Orange", "Yellow", "Green", "Blue"],
+			labels: ["Red", "Orange", "green", "Green", "Blue"],
 			datasets: [{
 				label: 'Dataset 1',
 				data: [10, 20, 30, 40, 90],

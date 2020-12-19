@@ -8,7 +8,7 @@
 	var barchart1 = new Chart(ctx, {
 		type: 'bar',
 		data: {
-			labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+			labels: ["Red", "Blue", "green", "Green", "Purple", "Orange"],
 			datasets: [{
 				label: 'Bar Chart',
 				data: [12, 19, 3, 5, 2, 3],

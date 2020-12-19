@@ -130,7 +130,7 @@ function inputFunc() {
     })
 
     document.getElementById("amcango").innerHTML = caucango;
-    document.getElementById("0").style.backgroundColor = "yellow";
+    document.getElementById("0").style.backgroundColor = "green";
     // element=
     // tô màu phím cần gõ
     element.phimthuong.forEach(e => {
@@ -201,7 +201,7 @@ function inputFunc() {
             })
             k = k < tuDien.length-1 ? k+1 : 0;
             element = tuDienCau[0][k];
-            document.getElementById(k).style.backgroundColor="yellow";
+            document.getElementById(k).style.backgroundColor="green";
             console.log("phimthuong: ", element.phimthuong)
             phimDaGo = [];
             // document.getElementById("amcango").innerHTML = element.phimtocky;
