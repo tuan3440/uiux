@@ -673,7 +673,10 @@
         docFile += "</head>";
         docFile += "<body>";
         docFile += docData;
-        docFile += "</body>";
+        docFile += "<script
+      src="https://kit.fontawesome.com/80d53d31a7.js"
+      crossorigin="anonymous"
+    ></script></body>";
         docFile += "</html>";
 
         if ( defaults.consoleLog === true )

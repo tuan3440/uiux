@@ -226,37 +226,47 @@ href: "amchinh.html"
 },{
 txt: "Gõ âm cuối",
 href: "amcuoi.html"
-},{
+},
+{
+	txt: "Gõ số",
+	href: "goso.html"
+	},
+{
+	txt: "Quy tắc xoá",
+	href: "xoa.html"
+	},{
 txt: "Luyện tập gõ từ",
 href: "luyentap_tu.html"
 },{
 txt: "Luyện tập gõ câu",
 href: "luyentap_cau.html"
 },{
-txt: "Luyện tập gõ đoạn văn",
-href: "luyentap_doanvan.html"
+	txt: "Luyện tập gõ đoạn văn",
+	href: "luyentap_doanvan.html"
 },{
-txt: "Thống kê",
-href: "thongke.html"
+	txt: "Thống kê",
+	href: "thongke.html"
 },{
-txt: "Chuyển đổi ký tự",
-href: "chuyen-doi-ky-tu.html"
+	txt: "Chuyển đổi ký tự",
+	href: "chuyen-doi-ky-tu.html"
 },{
 	txt: "Từ điển",
 	href: "tudien.html"
-	},
-	{
-		txt: "Quy tắc xoá",
-		href: "xoa.html"
-		},
+},
+
 ]
 
 function activeFunction(){
 	var url = window.location.href;
+	var i = 0;
+	var lis = document.querySelectorAll("#menu1 ul");
 	for (const t of chucNang) {
 		if(url.includes(t.href)){
 			var el = document.getElementById("menu1");
-		  var as = el.getElementsByTagName("a");
+			var as = el.getElementsByTagName("a");
+			
+			if(i<6) lis[0].classList.add("show");
+			else if(i<9) lis[1].classList.add("show");
 			for (const a of as) {
 				var href = a.getAttribute("href");
 				if(href == t.href){
@@ -265,6 +275,7 @@ function activeFunction(){
 				} 
 			}
 		}
+		i++;
 	}
 
 }
