@@ -91,9 +91,6 @@
         </div>
         <div class="left-custom-menu-adp-wrap comment-scrollbar">
           <nav class="sidebar-nav left-sidebar-menu-pro">
-            <br>
-            <br>
-            <br>
             <ul class="metismenu" id="menu1">
               <li>
                 <a class="has-arrow" href="  " aria-expanded="false"
@@ -127,9 +124,6 @@
                       ></a
                     >
                   </li>
-                  <li><a title="Gõ số" href="goso.html"><span class="mini-sub-pro">Quy tắc gõ số</span></a></li>
-                  <li><a title="Xóa" href="xoa.html"><span class="mini-sub-pro">Quy tắc xóa</span></a></li>
-
                 </ul>
               </li>
               <li>
@@ -194,17 +188,6 @@
               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="header-top-wraper">
                   <div class="row">
-                    <div class="col-lg-1 col-md-0 col-sm-1 col-xs-12">
-                      <div class="menu-switcher-pro">
-                        <button
-                          type="button"
-                          id="sidebarCollapse"
-                          class="btn bar-button-pro header-drl-controller-btn btn-info navbar-btn"
-                        >
-                          <i class="educate-icon educate-nav"></i>
-                        </button>
-                      </div>
-                    </div>
                     <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                       <div class="header-right-info">
                         <h3
@@ -214,20 +197,42 @@
                         </h3>
                       </div>
                     </div>
-                    <div class="col-lg-6" style="margin-top:10px">
-                      <input class="dtkien-search" id="myInput" name="myCountry" type="text" placeholder="Tìm kiếm">
+                  </div>
 
+                  <div class="row">
+                    <div class="col-md-12">
+                      <input class="dtkien-search" id="myInput" name="myCountry" type="text" placeholder="Tìm kiếm">
                     </div>
                   </div>
                 </div>
-           
+                <div
+                  class="btn-group"
+                  style="float: right; margin-right: 100px"
+                >
+                  <button
+                    type="button"
+                    class="btn btn-danger dropdown-toggle"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Tuandz
+                  </button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="taikhoan.html">Tài khoản</a>
+                    <br />
+                    <a class="dropdown-item" href="thongke.html">Thống kê</a>
+                    <br />
+                    <a class="dropdown-item" href="#">Đăng xuất</a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
         <div style="height: 34px"></div>
 
-        <div class="dtkien-content" style="margin-left: 70px;">
+        <div class="dtkien-content">
           <div style="height: 50px"></div>
 
           <div class="col-md-5">
@@ -326,6 +331,7 @@
     <!-- tawk chat JS
             ============================================ -->
     <script src="js/tawk-chat.js"></script>
+    <script src="autocomplete-search-function.js"></script>
     <script src="quytac.js"></script>
     <script src="chuyen-doi-ky-tu.js"></script>
   </body>
