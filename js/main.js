@@ -103,6 +103,7 @@
 
 
 $(document).ready(function(){
+	activeFunction();
 /*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
 autocomplete(document.getElementById("myInput"), chucNang);
 })
@@ -217,13 +218,13 @@ var chucNang = [{
 txt: "Làm quen với bàn phím",
 href: "lamquenbanphim.html"
 },{
-txt: "Quy tắc gõ âm đầu",
+txt: "Gõ âm đầu",
 href: "amdau.html"
 },{
-txt: "Quy tắc gõ âm chính",
+txt: "Gõ âm chính",
 href: "amchinh.html"
 },{
-txt: "Quy tắc gõ âm cuối",
+txt: "Gõ âm cuối",
 href: "amcuoi.html"
 },{
 txt: "Luyện tập gõ từ",
@@ -240,5 +241,31 @@ href: "thongke.html"
 },{
 txt: "Chuyển đổi ký tự",
 href: "chuyen-doi-ky-tu.html"
-},
+},{
+	txt: "Từ điển",
+	href: "tudien.html"
+	},
+	{
+		txt: "Quy tắc xoá",
+		href: "xoa.html"
+		},
 ]
+
+function activeFunction(){
+	var url = window.location.href;
+	for (const t of chucNang) {
+		if(url.includes(t.href)){
+			var el = document.getElementById("menu1");
+		  var as = el.getElementsByTagName("a");
+			for (const a of as) {
+				var href = a.getAttribute("href");
+				if(href == t.href){
+					a.classList.add("active-dtkien");
+					document.querySelector(".header-right-info h3").innerText = t.txt
+				} 
+			}
+		}
+	}
+
+}
+

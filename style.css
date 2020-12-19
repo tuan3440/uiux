@@ -4767,7 +4767,7 @@ div#sparklinehome canvas {
     border: 1px solid #ececec;
     font-size: 14px;
     height: 38px;
-    color: lightblue;
+    color: black;
     padding-left: 20px;
     padding-right: 40px;
     background: white;
@@ -4788,7 +4788,7 @@ div#sparklinehome canvas {
   }
   
   input.dtkien-search::placeholder {
-    color: #eeeeee;
+    color: #6b6b6b;
   }
   
   .autocomplete-items {

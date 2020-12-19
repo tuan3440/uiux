@@ -113,13 +113,13 @@ var chucNang = [{
   txt: "Làm quen với bàn phím",
   href: "lamquenbanphim.html"
 },{
-  txt: "Quy tắc gõ âm đầu",
+  txt: "Gõ âm đầu",
   href: "amdau.html"
 },{
-  txt: "Quy tắc gõ âm chính",
+  txt: "Gõ âm chính",
   href: "amchinh.html"
 },{
-  txt: "Quy tắc gõ âm cuối",
+  txt: "Gõ âm cuối",
   href: "amcuoi.html"
 },{
   txt: "Luyện tập gõ từ",
