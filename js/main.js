@@ -134,7 +134,7 @@ for (i = 0; i < arr.length; i++) {
 	/*create a DIV element for each matching element:*/
 	b = document.createElement("DIV");
 	/*make the matching letters bold:*/
-	b.innerHTML = "<a href='" + arr[i].href +"' class='custom-ahref'>" + arr[i].txt + "</a>";
+	b.innerHTML = "<a href='" + arr[i].href +"'>" + arr[i].txt + "</a>";
 	/*execute a function when someone clicks on the item value (DIV element):*/
 	b.addEventListener("click", function(e) {
 		/*insert the value for the autocomplete text field:*/

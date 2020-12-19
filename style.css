@@ -4805,10 +4805,15 @@ div#sparklinehome canvas {
   
   .autocomplete-items div {
     padding: 9px;
+    padding-left: 20px;
     cursor: pointer;
-    background-color: #006df0;
+    background-color: #ffffff;
     border-bottom: 1px solid #d4d4d4;
   }
+  .autocomplete-items div a{
+      color: black;
+  }
+
   
   /*when hovering an item:*/
   .autocomplete-items div:hover {
@@ -4818,7 +4823,7 @@ div#sparklinehome canvas {
   /*when navigating through the items using the arrow keys:*/
   .autocomplete-active {
     background-color: DodgerBlue !important;
-    color: #ffffff;
+    color: #000000;
   }
   
   .active-dtkien{
