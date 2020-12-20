@@ -253,7 +253,10 @@ href: "luyentap_cau.html"
 	txt: "Từ điển",
 	href: "tudien.html"
 },
-
+{
+	txt: "Soạn thảo",
+	href: "soanthao.html"
+},
 ]
 
 function activeFunction(){
