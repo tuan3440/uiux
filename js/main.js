@@ -3,13 +3,13 @@
 
  
 
-	/*----------------------------
+	/*-----------------------
 	 jQuery MeanMenu
-	------------------------------ */
+	------------------------ */
 	jQuery('nav#dropdown').meanmenu();	
-	/*----------------------------
+	/*-----------------------
 	 jQuery myTab
-	------------------------------ */
+	------------------------ */
 	$('#myTab a').on('click', function (e) {
 		  e.preventDefault()
 		  $(this).tab('show')
@@ -43,9 +43,9 @@
 		button.toggleClass('fa-plus').toggleClass('fa-minus');
 		
 	});
-	/*-----------------------------
+	/*------------------------
 		Menu Stick
-	---------------------------------*/
+	---------------------------*/
 	$(".sicker-menu").sticky({topSpacing:0});
 		
 	$('#sidebarCollapse').on('click', function () {
@@ -55,13 +55,13 @@
 	$(document).on('click', '.header-right-menu .dropdown-menu', function (e) {
 		  e.stopPropagation();
 	});
-	/*----------------------------
+	/*-----------------------
 	 wow js active
-	------------------------------ */
+	------------------------ */
 	 new WOW().init();
-	/*----------------------------
+	/*-----------------------
 	 owl active
-	------------------------------ */  
+	------------------------ */  
 	$("#owl-demo").owlCarousel({
       autoPlay: false, 
 	  slideSpeed:2000,
@@ -75,9 +75,9 @@
 	  itemsTablet: [768,2],
 	  itemsMobile : [479,1],
 	});
-	/*----------------------------
+	/*-----------------------
 	 price-slider active
-	------------------------------ */  
+	------------------------ */  
 	  $( "#slider-range" ).slider({
 	   range: true,
 	   min: 40,
@@ -89,9 +89,9 @@
 	  });
 	  $( "#amount" ).val( "£" + $( "#slider-range" ).slider( "values", 0 ) +
 	   " - £" + $( "#slider-range" ).slider( "values", 1 ) );
-	/*--------------------------
+	/*---------------------
 	 scrollUp
-	---------------------------- */	
+	----------------------- */	
 	$.scrollUp({
         scrollText: '<i class="fa fa-angle-up"></i>',
         easingType: 'linear',

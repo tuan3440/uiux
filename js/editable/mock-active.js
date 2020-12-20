@@ -70,7 +70,7 @@
                    s.push($.trim(response.responseText));
                 }
             }
-            s.push('--------------------------------------\n');
+            s.push('-------------------------------\n');
             $('#console').val(s.join('\n') + $('#console').val());
     }                 
 

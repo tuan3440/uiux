@@ -1,9 +1,9 @@
 (function ($) {
  "use strict";
  
-	 /*----------------------------------------*/
+	 /*--------------------------------*/
 	/*  1.  Basic Line Chart
-	/*----------------------------------------*/
+	/*--------------------------------*/
 	var ctx = document.getElementById("basiclinechart");
 	var basiclinechart = new Chart(ctx, {
 		type: 'line',
@@ -69,9 +69,9 @@
 		}
 	});
 	
-	 /*----------------------------------------*/
+	 /*--------------------------------*/
 	/*  2.  Line Chart Multi axis
-	/*----------------------------------------*/
+	/*--------------------------------*/
 	var ctx = document.getElementById("linechartmultiaxis");
 	var linechartmultiaxis = new Chart(ctx, {
 		type: 'line',
@@ -121,9 +121,9 @@
 		}
 	});
 	
-	 /*----------------------------------------*/
+	 /*--------------------------------*/
 	/*  3.  Line Chart stepped
-	/*----------------------------------------*/
+	/*--------------------------------*/
 	var ctx = document.getElementById("linechartstepped");
 	var linechartstepped = new Chart(ctx, {
 		type: 'line',
@@ -166,9 +166,9 @@
 		}
 	});
 	
-	/*----------------------------------------*/
+	/*--------------------------------*/
 	/*  4.  Line Chart Interpolation
-	/*----------------------------------------*/
+	/*--------------------------------*/
 	
 	var ctx = document.getElementById("linechartinterpolation");
 	var linechartinterpolation = new Chart(ctx, {
@@ -232,9 +232,9 @@
 	});
 	
 	
-	/*----------------------------------------*/
+	/*--------------------------------*/
 	/*  5.  Line Chart styles
-	/*----------------------------------------*/
+	/*--------------------------------*/
 	
 	var ctx = document.getElementById("linechartstyles");
 	var linechartstyles = new Chart(ctx, {
@@ -300,9 +300,9 @@
 			}
 		}
 	});
-	/*----------------------------------------*/
+	/*--------------------------------*/
 	/*  6.  Line Chart point circle
-	/*----------------------------------------*/
+	/*--------------------------------*/
 	
 	var ctx = document.getElementById("linechartpointcircle");
 	var linechartpointcircle = new Chart(ctx, {
@@ -356,9 +356,9 @@
 			}
 		}
 	});
-	/*----------------------------------------*/
+	/*--------------------------------*/
 	/*  6.  Line Chart point rectRot
-	/*----------------------------------------*/
+	/*--------------------------------*/
 	
 	var ctx = document.getElementById("linechartpointrectRot");
 	var linechartpointrectRot = new Chart(ctx, {
@@ -412,9 +412,9 @@
 			}
 		}
 	});
-	/*----------------------------------------*/
+	/*--------------------------------*/
 	/*  6.  Line Chart point cross
-	/*----------------------------------------*/
+	/*--------------------------------*/
 	
 	var ctx = document.getElementById("linechartpointcross");
 	var linechartpointcross = new Chart(ctx, {

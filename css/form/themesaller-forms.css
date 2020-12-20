@@ -1,12 +1,12 @@
 
 /*
---------------------------------------------------
+----------------------------------------
 @Start smart forms
---------------------------------------------------
+----------------------------------------
 */
 
 /* Roboto google font import
---------------------------------------- */
+-------------------------------- */
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900");
 
 html, body{
@@ -24,12 +24,12 @@ body{
 }
 
 /* @backgrounds :: modify or add yours below
-------------------------------------------------------------------- */
+------------------------------------------------------ */
 .darkbg{ background:#6C82A2 url(../images/dark.png) repeat fixed; }
 .woodbg{ background:#E6CCA6 url(../images/wood.png) repeat fixed; }
 
 /* @form wrappers
----------------------------------- */
+---------------------------- */
 .themesaller-wrap{ padding:0 20px; }
 .themesaller-forms,
 .themesaller-forms *{
@@ -63,14 +63,14 @@ body{
 /* @form container width
 /* @if you want to change the form container width change the values below
 /* @alternatively you can add yours eg .wrap4{ max-width:200px; }
----------------------------------------------------------------------------- */
+------------------------------------------------------------- */
 .wrap-0{ max-width:952px; }
 .wrap-1{ max-width:852px; }
 .wrap-2{ max-width:652px; }
 .wrap-3{ max-width:452px; }
 
 /* @form helper classes
---------------------------------------------------------------- */
+--------------------------------------------------- */
 .themesaller-forms .section{ margin-bottom:22px; }
 .themesaller-forms .smart-link{ color:#f00; text-decoration:none; }
 .themesaller-forms .smart-link:hover{ text-decoration: underline; }
@@ -86,7 +86,7 @@ body{
 }
 
 /* @form label + field :: field class is useful for validation
----------------------------------------------------------------------- */
+-------------------------------------------------------- */
 .themesaller-forms .field{ display:block; position:relative; }
 .themesaller-forms .field-icon i { color:#BBB; position:relative; }
 .themesaller-forms .field-label { display: block; margin-bottom: 7px; }
@@ -102,7 +102,7 @@ body{
 }
 
 /* @form header section
------------------------------------------ */
+--------------------------------- */
 .themesaller-forms .form-header{
 	overflow:hidden;
 	position:relative;
@@ -132,7 +132,7 @@ text-transform: uppercase;
 }
 
 /* @header themes :: primary + lite
----------------------------------------------- */
+------------------------------------- */
 .themesaller-forms .header-primary {
 background-color: #ff0000;
 border-bottom: 5px solid #e00000;
@@ -163,7 +163,7 @@ text-align: center;
 .themesaller-forms .header-lite h4{ color:#5D6A87; padding-top:5px; }
 
 /* @remove rounded corners form headers
------------------------------------------------------------------ */
+---------------------------------------------------- */
 .smart-flat,
 .smart-flat .form-header{
 	-webkit-border-radius:0;
@@ -173,7 +173,7 @@ text-align: center;
 }
 
 /* @form body + footer
-------------------------------------------------------------------- */
+------------------------------------------------------ */
 .themesaller-forms .form-body{ padding:40px 30px; padding-bottom:20px; }
 .themesaller-forms .form-footer {
 	overflow:hidden;
@@ -184,7 +184,7 @@ text-align: center;
 }
 
 /* @crossbrowser placeholder styling :: modern browsers only IE10+
------------------------------------------------------------------------- */
+---------------------------------------------------------- */
 .themesaller-forms input[type=search] { -webkit-appearance: textfield; }
 .themesaller-forms ::-webkit-search-decoration,
 .themesaller-forms ::-webkit-search-cancel-button { -webkit-appearance: none; }
@@ -207,7 +207,7 @@ text-align: center;
 .themesaller-forms textarea:focus:-ms-input-placeholder { color: #D6DBE0; }
 
 /* @element general styling :: fonts :: adjust accordingly
-------------------------------------------------------------- */
+------------------------------------------------- */
 .themesaller-forms label,
 .themesaller-forms input,
 .themesaller-forms button,
@@ -222,7 +222,7 @@ text-align: center;
 }
 
 /* @remove browser specific styling
------------------------------------------------ */
+-------------------------------------- */
 .themesaller-forms .gui-input,
 .themesaller-forms .gui-textarea,
 .themesaller-forms .select > select,
@@ -247,13 +247,13 @@ text-align: center;
 }
 
 /* @labels font-size styling :: adjust to fit your needs
---------------------------------------------------------- */
+---------------------------------------------- */
 .themesaller-forms .switch,
 .themesaller-forms .option,
 .themesaller-forms .field-label{ font-size:14px; }
 
 /* @prevent user selection for usability purposes
------------------------------------------------------ */
+------------------------------------------- */
 .themesaller-forms .radio,
 .themesaller-forms .button,
 .themesaller-forms .checkbox,
@@ -269,7 +269,7 @@ text-align: center;
 }
 
 /* @universal rules for all elements
----------------------------------------------------- */
+------------------------------------------ */
 .themesaller-forms .radio,
 .themesaller-forms .button,
 .themesaller-forms .tooltip,
@@ -293,7 +293,7 @@ text-align: center;
 }
 
 /* @control border-size :: color etc for these elements
------------------------------------------------------------ */
+------------------------------------------------ */
 .themesaller-forms .select,
 .themesaller-forms .gui-input,
 .themesaller-forms .gui-textarea,
@@ -314,7 +314,7 @@ text-align: center;
 }
 
 /* @styling inputs and textareas
-------------------------------------------- */
+----------------------------------- */
 .themesaller-forms .gui-input,
 .themesaller-forms .gui-textarea { padding:10px; }
 .themesaller-forms .gui-textarea {
@@ -326,7 +326,7 @@ text-align: center;
 }
 
 /* @hint below textareas
----------------------------------------- */
+-------------------------------- */
 .themesaller-forms .input-hint {
     padding: 10px;
 	display: block;
@@ -345,7 +345,7 @@ text-align: center;
 }
 
 /* @form selects :: dropdowns
--------------------------------------------------- */
+---------------------------------------- */
 .themesaller-forms .select { border:0; z-index:10; }
 .themesaller-forms .select > select {
 	display: block;
@@ -397,7 +397,7 @@ text-align: center;
 }
 
 /* @file inputs :: file uploaders
--------------------------------------------------------- */
+--------------------------------------------- */
 .themesaller-forms .file{ display:block; width:100%; }
 .themesaller-forms .file .gui-file{
 	width:100%;
@@ -424,7 +424,7 @@ text-align: center;
 }
 
 /* @form element :hover state
--------------------------------------------- */
+------------------------------------ */
 .themesaller-forms .gui-input:hover,
 .themesaller-forms .gui-textarea:hover,
 .themesaller-forms .select > select:hover,
@@ -436,7 +436,7 @@ text-align: center;
 }
 
 /* @form element :focus state
--------------------------------------------------------- */
+--------------------------------------------- */
 .themesaller-forms .gui-input:focus,
 .themesaller-forms .gui-textarea:focus,
 .themesaller-forms .select > select:focus,
@@ -469,7 +469,7 @@ text-align: center;
 
 
 /* @radio + checkbox option elements
------------------------------------------------------ */
+------------------------------------------- */
 .themesaller-forms .option {
     position: relative;
 	padding-right:15px;
@@ -544,7 +544,7 @@ text-align: center;
 
 
 /* @radio + checkbox :hover state
--------------------------------------------------- */
+---------------------------------------- */
 .themesaller-forms input:hover + .checkbox,
 .themesaller-forms input:hover + .radio{
     border-color:#f00;
@@ -552,14 +552,14 @@ text-align: center;
 }
 
 /* @radio + checkbox :focus state
---------------------------------------------------- */
+----------------------------------------- */
 .themesaller-forms input:focus + .checkbox,
 .themesaller-forms input:focus + .radio{ border-color: #f00; }
 .themesaller-forms input:focus + .radio:before{ background: #f00; }
 .themesaller-forms input:focus + .checkbox:before{ border-color: #f00; }
 
 /* @toggle switch elements
--------------------------------------------------- */
+---------------------------------------- */
 .themesaller-forms .switch {
 	cursor:pointer;
 	position: relative;
@@ -619,13 +619,13 @@ text-align: center;
 }
 
 /* @toggle switch focus state
--------------------------------------------------------------- */
+-------------------------------------------------- */
 .themesaller-forms .switch > input:focus { outline: none; }
 .themesaller-forms .switch > input:focus + label { color: #fff; border-color: #C7C7C7; background:#C7C7C7; }
 .themesaller-forms .switch > input:focus + label:after { background: #fff; }
 
 /* @toggle switch normal state
---------------------------------------------------------------- */
+--------------------------------------------------- */
 .themesaller-forms .switch > input:checked + label {
     border-color: #f00;
 	background: #f00;
@@ -647,7 +647,7 @@ text-align: center;
 }
 
 /* @toggle switch normal state focus
---------------------------------------------------------------------------------- */
+----------------------------------------------------------------- */
 .themesaller-forms .switch > input:checked:focus + label { background: #3c9b39; border-color: #3c9b39; }
 .themesaller-forms .switch-round > label {
 	-webkit-border-radius: 13px;
@@ -672,7 +672,7 @@ text-align: center;
 .themesaller-forms .switch-round > input:checked + label:after{ color:#f00; }
 
 /* @buttons
------------------------------------------------------ */
+------------------------------------------- */
 .themesaller-forms .button {
     border: 0;
 	height: 42px;
@@ -690,7 +690,7 @@ text-align: center;
 }
 
 /* @buttons :hover, :active states
----------------------------------------------------------------- */
+---------------------------------------------------- */
 .themesaller-forms .button:hover { color: #243140; background: #E8E8E8; }
 .themesaller-forms .button:active{ color: #1d2938; background: #C4C4C4; }
 .themesaller-forms a.button,
@@ -700,7 +700,7 @@ text-align: center;
 .themesaller-forms .button-list .button{ margin-bottom:5px; }
 
 /* @primary button theme
--------------------------------------------- */
+------------------------------------ */
 .themesaller-forms .btn-primary {  background-color: #f00;  }
 .themesaller-forms .btn-primary:hover,
 .themesaller-forms .btn-primary:focus { background-color: #3f51b5; }
@@ -711,7 +711,7 @@ text-align: center;
 .themesaller-forms .btn-primary:active{ color: #fff; text-shadow: 0 1px rgba(0, 0, 0, 0.08); }
 
 /* @rounded buttons
--------------------------------------------- */
+------------------------------------ */
 .themesaller-forms .btn-rounded{
 	-webkit-border-radius:22px;
 	-moz-border-radius:22px;
@@ -720,7 +720,7 @@ text-align: center;
 }
 
 /* @left + right buttons :: look like IOS
--------------------------------------------- */
+------------------------------------ */
 .themesaller-forms .button-left,
 .themesaller-forms .button-right {
     position: relative;
@@ -787,7 +787,7 @@ text-align: center;
 }
 
 /* @left right button pointed button shapes
------------------------------------------------- */
+--------------------------------------- */
 .themesaller-forms .btn-pointed.button-left,
 .themesaller-forms .btn-pointed.button-right{
 	-webkit-border-radius:22px;
@@ -811,7 +811,7 @@ text-align: center;
 }
 
 /* @push buttons
------------------------------------------------- */
+--------------------------------------- */
 .themesaller-forms .pushed {
 	-webkit-box-shadow:inset 0 -0.3em 0 rgba(0,0,0,0.2);
 	-moz-box-shadow:inset 0 -0.3em 0 rgba(0,0,0,0.2);
@@ -863,13 +863,13 @@ text-align: center;
 }
 
 /* @adjust buttons in form footer
------------------------------------------------- */
+--------------------------------------- */
 .themesaller-forms .form-footer .button{ display: block;
 margin: 0 auto; }
 .themesaller-forms .align-right .button{ margin-right:0; margin-left:10px; }
 
 /* @social buttons :: facebook :: twitter :: google +
----------------------------------------------------- */
+------------------------------------------ */
 .themesaller-forms .twitter,
 .themesaller-forms .twitter:hover,
 .themesaller-forms .twitter:focus,
@@ -908,7 +908,7 @@ margin: 0 auto; }
 .themesaller-forms .googleplus span{ background-color:#C03121; }
 
 /* @rating and review star widget :: with hover back afetr selecting
------------------------------------------------------------------------- */
+---------------------------------------------------------- */
 .themesaller-forms .rating { overflow: hidden; }
 .themesaller-forms .rating.block { display:block; margin:10px 0; }
 .themesaller-forms .rating label{color: #A2A6A8;}
@@ -933,7 +933,7 @@ margin: 0 auto; }
    @this widget helps us to position an element eg button or label or span
    @the positions can either be left or right while the input stays 100%
    @you ca use this to rapidly create search widgets, newsletter subscribe etc
----------------------------------------------------------------------------------*/
+-----------------------------------------------------------------*/
 .themesaller-forms .smart-widget,
 .themesaller-forms .append-picker-icon,
 .themesaller-forms .prepend-picker-icon { position: relative; display:block; }
@@ -964,7 +964,7 @@ margin: 0 auto; }
 .themesaller-forms .append-picker-icon button {  right:0; }
 
 /* @smart widget buttons - to left
-------------------------------------------------- */
+---------------------------------------- */
 .themesaller-forms .sml-50,
 .themesaller-forms .prepend-picker-icon { padding-left: 50px; }
 .themesaller-forms .sml-50 .button,
@@ -975,7 +975,7 @@ margin: 0 auto; }
 .themesaller-forms .sml-120 .button { width: 120px; }
 
 /* @smart widget buttons - to right
-------------------------------------------------- */
+---------------------------------------- */
 .themesaller-forms .smr-50,
 .themesaller-forms .append-picker-icon{ padding-right: 50px; }
 .themesaller-forms .smr-50 .button,
@@ -987,7 +987,7 @@ margin: 0 auto; }
 
 
 /* @icon append (right) :: prepend (left)
-------------------------------------------------- */
+---------------------------------------- */
 .themesaller-forms .append-icon,
 .themesaller-forms .prepend-icon{
     display: inline-block;
@@ -1029,7 +1029,7 @@ margin: 0 auto; }
 .themesaller-forms .append-icon > textarea{ padding-right:36px; }
 
 /* @tooltips on inputs + textareas
-------------------------------------------------- */
+---------------------------------------- */
 .themesaller-forms .tooltip {
 	position: absolute;
 	z-index: -1;
@@ -1054,7 +1054,7 @@ margin: 0 auto; }
 .themesaller-forms .gui-textarea:focus + .tooltip { opacity: 1; z-index: 999; }
 
 /* @tooltip left
-------------------------------------------------- */
+---------------------------------------- */
 .themesaller-forms .tip-left { top:1px; margin-right:-20px; }
 .themesaller-forms .tip-left:after {
 	top:12px;
@@ -1072,7 +1072,7 @@ margin: 0 auto; }
 }
 
 /* @tooltip right
-------------------------------------------------- */
+---------------------------------------- */
 .themesaller-forms .tip-right { top:1px; margin-left:-20px; }
 .themesaller-forms .tip-right:after {
 	top:12px;
@@ -1086,7 +1086,7 @@ margin: 0 auto; }
 .themesaller-forms .gui-textarea:focus + .tip-right { left: 100%; margin-left:5px; }
 
 /* @tooltip right-top
-------------------------------------------------- */
+---------------------------------------- */
 .themesaller-forms .tip-right-top { bottom: 100%; margin-bottom: -20px; }
 .themesaller-forms .tip-right-top:after {
 	top: 100%;
@@ -1104,7 +1104,7 @@ margin: 0 auto; }
 }
 
 /* @tooltip left-top
-------------------------------------------------- */
+---------------------------------------- */
 .themesaller-forms .tip-left-top { bottom: 100%; margin-bottom: -20px; }
 .themesaller-forms .tip-left-top:after {
 	top: 100%;
@@ -1122,7 +1122,7 @@ margin: 0 auto; }
 }
 
 /* @tooltip right-bottom
-------------------------------------------------- */
+---------------------------------------- */
 .themesaller-forms .tip-right-bottom { top: 100%; margin-top: -20px; }
 .themesaller-forms .tip-right-bottom:after {
 	right: 12px;
@@ -1140,7 +1140,7 @@ margin: 0 auto; }
 }
 
 /* @tooltip left-bottom
-------------------------------------------------- */
+---------------------------------------- */
 .themesaller-forms .tip-left-bottom { top: 100%; margin-top: -20px; }
 .themesaller-forms .tip-left-bottom:after {
 	left: 12px;
@@ -1158,12 +1158,12 @@ margin: 0 auto; }
 }
 
 /* @lists
--------------------------------------------------------------- */
+-------------------------------------------------- */
 .themesaller-forms .smart-list{ list-style:none; margin:0; padding:0; }
 .themesaller-forms .smart-list li{ margin-bottom:20px; }
 
 /* @notification messages | info | error | warning | success
--------------------------------------------------------------- */
+-------------------------------------------------- */
 .themesaller-forms .form-msg{ display:none; }
 .themesaller-forms .notification { color: #444; padding:15px; position:relative; }
 .themesaller-forms .notification p{ margin:0; padding:0 15px; padding-left:5px; line-height:normal;  }
@@ -1187,7 +1187,7 @@ margin: 0 auto; }
 .themesaller-forms .alert-error { color:#990000; background-color: #FBDBCF; }
 
 /* @validaion - error state
-------------------------------------- */
+------------------------------ */
 .themesaller-forms .state-error .gui-input,
 .themesaller-forms .state-error .gui-textarea,
 .themesaller-forms .state-error.select > select,
@@ -1231,7 +1231,7 @@ margin: 0 auto; }
 }
 
 /* @validaion - success state
--------------------------------------------------- */
+---------------------------------------- */
 .themesaller-forms .state-success .gui-input,
 .themesaller-forms .state-success .gui-textarea,
 .themesaller-forms .state-success.select > select,
@@ -1265,7 +1265,7 @@ margin: 0 auto; }
 .themesaller-forms .state-success .gui-textarea ~ .input-hint { border-color:#A5D491; }
 
 /* @disabled state
------------------------------------------------ */
+-------------------------------------- */
 .themesaller-forms .button[disabled],
 .themesaller-forms .state-disabled .button,
 .themesaller-forms input[disabled] + .radio,
@@ -1297,7 +1297,7 @@ margin: 0 auto; }
 }
 
 /* @datepicker - requires jquery ui
------------------------------------------------ */
+-------------------------------------- */
 .ui-datepicker {
 	width: 18em;
 	margin-top:8px;
@@ -1387,7 +1387,7 @@ margin: 0 auto; }
 }
 
 /* @multiple calendars || not responsive use carefully
---------------------------------------------------------------- */
+--------------------------------------------------- */
 .cal-widget .ui-datepicker { width: 100%; margin-top:0; }
 .cal-widget .ui-datepicker:before{ display:none; }
 .ui-datepicker.ui-datepicker-multi { width: auto; }
@@ -1402,7 +1402,7 @@ margin: 0 auto; }
 .ui-datepicker-row-break { clear: both; width: 100%; font-size: 0; }
 
 /* @ ui buttons
----------------------------------------------------------------- */
+---------------------------------------------------- */
 .ui-datepicker-buttonpane{ border-top:1px solid #CFCFCF; padding:10px;  }
 .ui-datepicker-buttonpane button {
 	padding: 8px 12px;
@@ -1422,13 +1422,13 @@ margin: 0 auto; }
 }
 
 /* @ ui buttons :hover, :active states
----------------------------------------------------------------- */
+---------------------------------------------------- */
 .ui-datepicker-buttonpane button:hover { color: #243140; background: #E8E8E8; }
 .ui-datepicker-buttonpane button:active{ color: #1d2938; background: #C4C4C4; }
 .ui-monthpicker .ui-datepicker-header{ margin-bottom:3px; }
 
 /* @ui slider - requires jquery ui
-------------------------------------------------------*/
+--------------------------------------------*/
 .themesaller-forms .slider-wrapper,
 .themesaller-forms .sliderv-wrapper{
 	background:#E5E5E5;
@@ -1505,7 +1505,7 @@ margin: 0 auto; }
 }
 
 /* @ui slider tooltip
-------------------------------------------------------*/
+--------------------------------------------*/
 .themesaller-forms .slider-tip {
 	display: block;
 	position: absolute;
@@ -1539,7 +1539,7 @@ margin: 0 auto; }
 }
 
 /* @ui slider themes
-------------------------------------------------------*/
+--------------------------------------------*/
 .themesaller-forms .yellow-slider .ui-slider .ui-slider-handle{ border-color:#faa226; }
 .themesaller-forms .yellow-slider .ui-slider .ui-slider-handle:before,
 .themesaller-forms .yellow-slider .ui-slider .ui-slider-range { background-color: #faa226;  }
@@ -1560,7 +1560,7 @@ margin: 0 auto; }
 .themesaller-forms .green-slider .ui-slider .ui-slider-range { background-color:#0E993C;  }
 
 /* @ui timepicker - requires jquery ui
-------------------------------------------------------*/
+--------------------------------------------*/
 .ui-timepicker-div .ui-widget-header {
 	position: relative;
 	background: #F5F5F5;
@@ -1584,7 +1584,7 @@ margin: 0 auto; }
 .ui-timepicker-rtl dl dd { margin: 0 40% 10px 10px; }
 
 /* @progress bars
-------------------------------------------------------*/
+--------------------------------------------*/
 .themesaller-forms .progress-section{ display:none; }
 .themesaller-forms .progress-bar {
     position: relative;
@@ -1608,7 +1608,7 @@ margin: 0 auto; }
 }
 
 /* @progress bar themes
------------------------------------------------------------ */
+------------------------------------------------ */
 .themesaller-forms .bar-primary > .bar  { background-color: #f00; }
 .themesaller-forms .bar-blue > .bar     { background-color: #00acee; }
 .themesaller-forms .bar-black > .bar    { background-color: #505558; }
@@ -1618,7 +1618,7 @@ margin: 0 auto; }
 .themesaller-forms .bar-yellow > .bar   { background-color: #faa226; }
 
 /* @progress bar strips + animation IE10+
------------------------------------------------------------ */
+------------------------------------------------ */
 .themesaller-forms .ui-slider .ui-slider-range,
 .themesaller-forms .progress > button[type="submit"],
 .themesaller-forms .progress > button[type="submit"]:hover,
@@ -1675,16 +1675,16 @@ margin: 0 auto; }
 
 
 /* @google map :: block elements
------------------------------------------------------------------------ */
+--------------------------------------------------------- */
 .themesaller-forms .map-container{ padding:10px; border: 1px solid #CFCFCF; }
 .themesaller-forms #map_canvas{ width:100%; height:300px; overflow:hidden;  }
 .themesaller-forms .block{ display:block; }
 
 /* @form grid
------------------------------------ */
+---------------------------- */
 
 /* @form rows
---------------------------------- */
+--------------------------- */
 .themesaller-forms .frm-row{ margin:0 -10px;  }
 .themesaller-forms .slider-group:before,
 .themesaller-forms .slider-group:after,
@@ -1694,7 +1694,7 @@ margin: 0 auto; }
 .themesaller-forms .frm-row:after{ clear: both; }
 
 /* @form columns
------------------------------------ */
+---------------------------- */
 .themesaller-forms .frm-row .colm{
 	min-height:1px;
 	padding-left:10px;
@@ -1719,7 +1719,7 @@ margin: 0 auto; }
 .themesaller-forms .frm-row .colm1-8{width:12.5%;}
 
 /* @spacers
---------------------------------------- */
+-------------------------------- */
 .themesaller-forms .spacer{
 	border-top:1px solid #CFCFCF;
 	display:block;
@@ -1727,7 +1727,7 @@ margin: 0 auto; }
 }
 
 /* @margin spacers :: modify accordingly
--------------------------------------------- */
+------------------------------------ */
 .themesaller-forms .spacer-t10{ margin-top:10px; }
 .themesaller-forms .spacer-b10{ margin-bottom:10px; }
 .themesaller-forms .spacer-t15{ margin-top:15p; }
@@ -1742,7 +1742,7 @@ margin: 0 auto; }
 .themesaller-forms .spacer-b40{ margin-bottom:40px; }
 
 /* @padding spacers :: modify accordingly
--------------------------------------------------- */
+---------------------------------------- */
 .themesaller-forms .frm-row .pad-l10{ padding-left:10px; }
 .themesaller-forms .frm-row .pad-r10{ padding-right:10px; }
 .themesaller-forms .frm-row .pad-l20{ padding-left:20px; }
@@ -1753,7 +1753,7 @@ margin: 0 auto; }
 .themesaller-forms .frm-row .pad-r40{ padding-right:40px; }
 
 /* @border spacers + text adjust
--------------------------------------------------- */
+---------------------------------------- */
 .themesaller-forms .bdl { border-left:1px solid #CFCFCF;   }
 .themesaller-forms .bdr { border-right:1px solid #CFCFCF;  }
 .themesaller-forms .fine-grey{ color:#999; }
@@ -1761,12 +1761,12 @@ margin: 0 auto; }
 .themesaller-forms .text-align{ height:42px; line-height:42px; }
 
 /* @element alignment
--------------------------------------------------- */
+---------------------------------------- */
 .themesaller-forms .align-right{ text-align:right; }
 .themesaller-forms .align-center{ text-align:center; }
 
 /* @simple price boxes :: depend on grid
--------------------------------------------------- */
+---------------------------------------- */
 .themesaller-forms .price-box{
 	padding:30px;
 	text-align:center;
@@ -1788,7 +1788,7 @@ margin: 0 auto; }
 .themesaller-forms .expand{ height:50px; line-height:50px!important; border-radius:3px; }
 
 /* @simple price boxes ribbon IE8+
------------------------------------------ */
+--------------------------------- */
 .themesaller-forms .ribbon,
 .themesaller-forms .ribbon-large{
 	width:75px;
@@ -1848,7 +1848,7 @@ margin: 0 auto; }
 }
 
 /* @captcha refresh button + icon
--------------------------------------------------- */
+---------------------------------------- */
 .themesaller-forms .sfcode{ padding-left:24px; }
 .themesaller-forms .captcode{ padding:0; position:relative; }
 .themesaller-forms .captcode img{ position:relative; top:1px;}
@@ -1876,7 +1876,7 @@ margin: 0 auto; }
 }
 
 /* @captcha refresh button themes
--------------------------------------------------- */
+---------------------------------------- */
 .themesaller-forms .refresh-black    { background:#505558; border-color: #333333; }
 .themesaller-forms .refresh-blue     { background:#00acee; border-color: #0087bb; }
 .themesaller-forms .refresh-green    { background:#0E993C; border-color: #0B792F; }
@@ -1885,7 +1885,7 @@ margin: 0 auto; }
 .themesaller-forms .refresh-yellow   { background:#faa226; border-color: #e88a05; }
 
 /* Firefox select fix - select arrow hack  disabled on FF 30+
--------------------------------------------------------------- */
+-------------------------------------------------- */
 @-moz-document url-prefix() {
 	.themesaller-forms .select:before{
 		content: '';
@@ -1933,7 +1933,7 @@ margin: 0 auto; }
 }
 
 /* @Fix old of versions android + ios
-------------------------------------------------------------- */
+------------------------------------------------- */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
         .themesaller-forms .option,
         .themesaller-forms .rating,
@@ -1948,7 +1948,7 @@ margin: 0 auto; }
 }
 
 /* @responsiveness for tablets + smart mobile
--------------------------------------------------- */
+---------------------------------------- */
 @media (max-width: 600px) {
 	.themesaller-forms .frm-row{ margin:0;  }
 	.themesaller-forms .frm-row .colm{  width: 100%; float:none; padding:0; }

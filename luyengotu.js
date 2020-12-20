@@ -19,45 +19,45 @@ function inputFunc() {
     ]
     var tuDien = [
         {
-            phimthuong: ["c", "j", "[" ],
+            phimthuong: ["c", "j", "["],
             phimtocky: "um"
         },
         {
-            phimthuong: ["s", "r", "f", "i", "p" ],
+            phimthuong: ["s", "r", "f", "i", "p"],
             phimtocky: "bợn"
         },
         {
-            phimthuong: ["s", "e", "v", "g", "i", "[" ],
+            phimthuong: ["s", "e", "v", "g", "i", "["],
             phimtocky: "nốm"
         },
         {
-            phimthuong: ["w", "c", "v", "g", "p" ,"'"],
+            phimthuong: ["w", "c", "v", "g", "p", "'"],
             phimtocky: "cuốc"
         },
         {
-            phimthuong: ["q", "g", "p", "m" ],
+            phimthuong: ["q", "g", "p", "m"],
             phimtocky: "sán"
         },
     ]
     var tuDienTu = [
         {
-            phimthuong: ["'", "[" ],
+            phimthuong: ["'", "["],
             phimtocky: "cái"
         },
         {
-            phimthuong: ["q", "e", "c", "g", "j" ,"o","l"],
+            phimthuong: ["q", "e", "c", "g", "j", "o", "l"],
             phimtocky: "lúi"
         },
         {
-            phimthuong: ["s", "r", "d", "f", "c", "j",";" ],
+            phimthuong: ["s", "r", "d", "f", "c", "j", ";"],
             phimtocky: "phụng"
         },
         {
-            phimthuong: ["e", "g", "v", "i", "p" ,"'"],
+            phimthuong: ["e", "g", "v", "i", "p", "'"],
             phimtocky: "rốc"
         },
         {
-            phimthuong: ["e", "s", "c", "v", ";" ],
+            phimthuong: ["e", "s", "c", "v", ";"],
             phimtocky: "nuông"
         },
     ]
@@ -65,7 +65,7 @@ function inputFunc() {
     var k = 0;
     var element = tuDien[k];
     console.log(element)
-    // khởi tạo âm cần gõ
+    // khởi tạo Âm cần gõ: 
     document.getElementById("amcango").innerHTML = element.phimtocky;
     // tô màu phím cần gõ
     element.phimthuong.forEach(e => {
@@ -133,14 +133,14 @@ function inputFunc() {
                     a[i].style.fill = "#2b2b2b";
                 }
             })
-            k = k < tuDien.length-1 ? k+1 : 0;
+            k = k < tuDien.length - 1 ? k + 1 : 0;
             element = tuDien[k];
 
             console.log("phimthuong: ", element.phimthuong)
             phimDaGo = [];
             document.getElementById("amcango").innerHTML = element.phimtocky;
             // var a = document.getElementsByClassName(element.phimthuong);
-            
+
         }
         console.log(phimDaGo)
         // lấy class của phím vừa nhả 

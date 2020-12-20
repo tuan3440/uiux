@@ -10,112 +10,112 @@ function inputFunc() {
     var tuDienCau = [
         [
             {
-                phimthuong: ["c", "j", "[" ],
+                phimthuong: ["c", "j", "["],
                 phimtocky: "um"
             },
             {
-                phimthuong: ["s", "r", "f", "i", "p" ],
+                phimthuong: ["s", "r", "f", "i", "p"],
                 phimtocky: "bợn"
             },
             {
-                phimthuong: ["s", "e", "v", "g", "i", "[" ],
+                phimthuong: ["s", "e", "v", "g", "i", "["],
                 phimtocky: "nốm"
             },
             {
-                phimthuong: ["w", "c", "v", "g", "p" ,"'"],
+                phimthuong: ["w", "c", "v", "g", "p", "'"],
                 phimtocky: "cuốc"
             },
             {
-                phimthuong: ["q", "g", "p", "m" ],
+                phimthuong: ["q", "g", "p", "m"],
                 phimtocky: "sán"
             },
         ],
         [
             {
-                phimthuong: ["s", "r", "d", "f", "c", "j",";" ],
+                phimthuong: ["s", "r", "d", "f", "c", "j", ";"],
                 phimtocky: "phụng"
             },
             {
-                phimthuong: ["s", "r", "f", "i", "p" ],
+                phimthuong: ["s", "r", "f", "i", "p"],
                 phimtocky: "bợn"
             },
             {
-                phimthuong: ["e", "g", "v", "i", "p" ,"'"],
+                phimthuong: ["e", "g", "v", "i", "p", "'"],
                 phimtocky: "rốc"
             },
             {
-                phimthuong: ["w", "c", "v", "g", "p" ,"'"],
+                phimthuong: ["w", "c", "v", "g", "p", "'"],
                 phimtocky: "cuốc"
             },
             {
-                phimthuong: ["q", "g", "p", "m" ],
+                phimthuong: ["q", "g", "p", "m"],
                 phimtocky: "sán"
             },
         ],
         [
             {
-                phimthuong: ["'", "[" ],
+                phimthuong: ["'", "["],
                 phimtocky: "cái"
             },
             {
-                phimthuong: ["q", "e", "c", "g", "j" ,"o","l"],
+                phimthuong: ["q", "e", "c", "g", "j", "o", "l"],
                 phimtocky: "lúi"
             },
             {
-                phimthuong: ["s", "r", "d", "f", "c", "j",";" ],
+                phimthuong: ["s", "r", "d", "f", "c", "j", ";"],
                 phimtocky: "phụng"
             },
             {
-                phimthuong: ["e", "g", "v", "i", "p" ,"'"],
+                phimthuong: ["e", "g", "v", "i", "p", "'"],
                 phimtocky: "rốc"
             },
             {
-                phimthuong: ["e", "s", "c", "v", ";" ],
+                phimthuong: ["e", "s", "c", "v", ";"],
                 phimtocky: "nuông"
             },
         ]
     ]
     var tuDien = [
         {
-            phimthuong: ["c", "j", "[" ],
+            phimthuong: ["c", "j", "["],
             phimtocky: "um"
         },
         {
-            phimthuong: ["s", "r", "f", "i", "p" ],
+            phimthuong: ["s", "r", "f", "i", "p"],
             phimtocky: "bợn"
         },
         {
-            phimthuong: ["s", "e", "v", "g", "i", "[" ],
+            phimthuong: ["s", "e", "v", "g", "i", "["],
             phimtocky: "nốm"
         },
         {
-            phimthuong: ["w", "c", "v", "g", "p" ,"'"],
+            phimthuong: ["w", "c", "v", "g", "p", "'"],
             phimtocky: "cuốc"
         },
         {
-            phimthuong: ["q", "g", "p", "m" ],
+            phimthuong: ["q", "g", "p", "m"],
             phimtocky: "sán"
         },
     ]
     var tuDienTu = [
         {
-            phimthuong: ["'", "[" ],
+            phimthuong: ["'", "["],
             phimtocky: "cái"
         },
         {
-            phimthuong: ["q", "e", "c", "g", "j" ,"o","l"],
+            phimthuong: ["q", "e", "c", "g", "j", "o", "l"],
             phimtocky: "lúi"
         },
         {
-            phimthuong: ["s", "r", "d", "f", "c", "j",";" ],
+            phimthuong: ["s", "r", "d", "f", "c", "j", ";"],
             phimtocky: "phụng"
         },
         {
-            phimthuong: ["e", "g", "v", "i", "p" ,"'"],
+            phimthuong: ["e", "g", "v", "i", "p", "'"],
             phimtocky: "rốc"
         },
         {
-            phimthuong: ["e", "s", "c", "v", ";" ],
+            phimthuong: ["e", "s", "c", "v", ";"],
             phimtocky: "nuông"
         },
     ]
@@ -123,10 +123,10 @@ function inputFunc() {
     var k = 0;
     var element = tuDienCau[0][0];
     console.log(element)
-    // khởi tạo âm cần gõ
-    var caucango ="";
-    tuDienCau[0].forEach((value, index)=>{
-        caucango+="<span id="+index+">"+value.phimtocky+" </span>";
+    // khởi tạo Âm cần gõ: 
+    var caucango = "";
+    tuDienCau[0].forEach((value, index) => {
+        caucango += "<span id=" + index + ">" + value.phimtocky + " </span>";
     })
 
     document.getElementById("amcango").innerHTML = caucango;
@@ -190,7 +190,7 @@ function inputFunc() {
     window.addEventListener('keyup', function (event) {
         // nếu đủ
         if (JSON.stringify(element.phimthuong.sort()) == JSON.stringify(phimDaGo.sort())) {
-            document.getElementById(k).style.backgroundColor="white";
+            document.getElementById(k).style.backgroundColor = "white";
             element.phimthuong.forEach(e => {
                 var a = document.getElementsByClassName(e);
                 var i;
@@ -199,14 +199,14 @@ function inputFunc() {
                     a[i].style.fill = "#2b2b2b";
                 }
             })
-            k = k < tuDien.length-1 ? k+1 : 0;
+            k = k < tuDien.length - 1 ? k + 1 : 0;
             element = tuDienCau[0][k];
-            document.getElementById(k).style.backgroundColor="green";
+            document.getElementById(k).style.backgroundColor = "green";
             console.log("phimthuong: ", element.phimthuong)
             phimDaGo = [];
             // document.getElementById("amcango").innerHTML = element.phimtocky;
             // var a = document.getElementsByClassName(element.phimthuong);
-            
+
         }
         console.log(phimDaGo)
         // lấy class của phím vừa nhả 
@@ -229,7 +229,7 @@ function inputFunc() {
             }
         }
         // tô màu phím cần gõ
-        
+
         element.phimthuong.forEach(e => {
             var a = document.getElementsByClassName(e);
             var i;

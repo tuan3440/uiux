@@ -1,5 +1,5 @@
 $(document).ready(() => {
-    
+
 })
 
 function nomalTextInput() {
@@ -12,5 +12,5 @@ function nomalTextInput() {
     $("#convertTocky").val(rs);
 }
 
-function convertTextInput(){
+function convertTextInput() {
 }

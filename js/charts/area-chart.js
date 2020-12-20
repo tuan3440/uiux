@@ -1,9 +1,9 @@
 (function ($) {
  "use strict";
  
-	 /*----------------------------------------*/
+	 /*--------------------------------*/
 	/*  1.  Area Chart
-	/*----------------------------------------*/
+	/*--------------------------------*/
 	var ctx = document.getElementById("areachartfalse");
 	var areachartfalse = new Chart(ctx, {
 		type: 'line',
@@ -58,9 +58,9 @@
 		}
 	});
 	
-	 /*----------------------------------------*/
+	 /*--------------------------------*/
 	/*  1.  Area Chart origin
-	/*----------------------------------------*/
+	/*--------------------------------*/
 	var ctx = document.getElementById("areachartorigin");
 	var areachartorigin = new Chart(ctx, {
 		type: 'line',
@@ -114,9 +114,9 @@
 			}
 		}
 	});
-	 /*----------------------------------------*/
+	 /*--------------------------------*/
 	/*  1.  Area Chart start
-	/*----------------------------------------*/
+	/*--------------------------------*/
 	var ctx = document.getElementById("areachartfillstart");
 	var areachartfillstart = new Chart(ctx, {
 		type: 'line',
@@ -172,9 +172,9 @@
 	});
 	
 	
-	 /*----------------------------------------*/
+	 /*--------------------------------*/
 	/*  1.  Area Chart end
-	/*----------------------------------------*/
+	/*--------------------------------*/
 	var ctx = document.getElementById("areachartend");
 	var areachartend = new Chart(ctx, {
 		type: 'line',
@@ -229,9 +229,9 @@
 		}
 	});
 	
-	 /*----------------------------------------*/
+	 /*--------------------------------*/
 	/*  1.  Area Chart Datasets
-	/*----------------------------------------*/
+	/*--------------------------------*/
 	var ctx = document.getElementById("areachartDatasets");
 	var areachartDatasets = new Chart(ctx, {
 		type: 'line',
@@ -295,9 +295,9 @@
 		}
 	});
 	
-	 /*----------------------------------------*/
+	 /*--------------------------------*/
 	/*  1.  Area Chart Legend
-	/*----------------------------------------*/
+	/*--------------------------------*/
 	var ctx = document.getElementById("areachartLegend");
 	var areachartLegend = new Chart(ctx, {
 		type: 'line',

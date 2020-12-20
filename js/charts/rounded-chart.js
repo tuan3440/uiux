@@ -1,9 +1,9 @@
 (function ($) {
  "use strict";
  
-	 /*----------------------------------------*/
+	 /*--------------------------------*/
 	/*  1.  pie Chart
-	/*----------------------------------------*/
+	/*--------------------------------*/
 	var ctx = document.getElementById("piechart");
 	var piechart = new Chart(ctx, {
 		type: 'pie',
@@ -25,9 +25,9 @@
 			responsive: true
 		}
 	});
-	 /*----------------------------------------*/
+	 /*--------------------------------*/
 	/*  2.  polar Chart
-	/*----------------------------------------*/
+	/*--------------------------------*/
 	var ctx = document.getElementById("polarchart");
 	var polarchart = new Chart(ctx, {
 		type: 'polarArea',
@@ -68,9 +68,9 @@
         }
 	});
 	
-	 /*----------------------------------------*/
+	 /*--------------------------------*/
 	/*  3.  radar Chart
-	/*----------------------------------------*/
+	/*--------------------------------*/
 	var ctx = document.getElementById("radarchart");
 	var radarchart = new Chart(ctx, {
 		type: 'radar',
@@ -107,9 +107,9 @@
             }
         }
 	});
-	 /*----------------------------------------*/
+	 /*--------------------------------*/
 	/*  3.  Doughnut Chart
-	/*----------------------------------------*/
+	/*--------------------------------*/
 	var ctx = document.getElementById("Doughnutchart");
 	var Doughnutchart = new Chart(ctx, {
 		type: 'radar',

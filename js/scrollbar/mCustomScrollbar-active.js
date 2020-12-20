@@ -1,9 +1,9 @@
 (function ($) {
  "use strict";
 
-		/*--------------------------
+		/*---------------------
 		 mCustomScrollbar
-		---------------------------- */	
+		----------------------- */	
 			$(window).on("load",function(){
 				$(".message-menu, .notification-menu, .comment-scrollbar, .notes-menu-scrollbar, .project-st-menu-scrollbar, .report-graph-scroll, .report-graph-scroll2").mCustomScrollbar({
 					axis:"x",

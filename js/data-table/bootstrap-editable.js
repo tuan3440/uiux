@@ -1406,7 +1406,7 @@ Applied as jQuery method.
 
 /**
 * Editable Inline 
-* ---------------------
+* -----------------
 */
 (function ($) {
     "use strict";
@@ -2477,7 +2477,7 @@ To create your own input you can inherit from this class.
        destroy: function() {
        },
 
-       // -------- helper functions --------
+       // ------- helper functions -------
        setClass: function() {          
            if(this.options.inputclass) {
                this.$input.addClass(this.options.inputclass); 
@@ -2595,7 +2595,7 @@ List - abstract class for inputs that have source option loaded from js array or
             return deferred.promise();
         },  
 
-        // ------------- additional functions ------------
+        // ----------- additional functions ----------
 
         onSourceReady: function (success, error) {
             //run source if it function
@@ -4693,7 +4693,7 @@ Editableform based on Twitter Bootstrap 3
 }(window.jQuery));
 /**
 * Editable Popover3 (for Bootstrap 3) 
-* ---------------------
+* -----------------
 * requires bootstrap-popover.js
 */
 (function ($) {

@@ -1,11 +1,11 @@
-/*-----------------------------------------------------------------------------------
+/*-------------------------------------------------------------------
 
     Template Name: Kiaalap - Kiaalap Admin Template 
     Description: Kiaalap Admin Template is a responsive admin template based on the famous Bootstrap framework it's easy to edit and customize by documentation.
     Author: Colorlib
     Version: 1.0
 
------------------------------------------------------------------------------------
+-------------------------------------------------------------------
     
     CSS INDEX
     ===================
@@ -37,11 +37,11 @@
 	22. Notification
 	23. footer
 
------------------------------------------------------------------------------------*/
+-------------------------------------------------------------------*/
 
-/*----------------------------------------*/
+/*--------------------------------*/
 /*  1. Common
-/*----------------------------------------*/
+/*--------------------------------*/
 html, body {height: 100%; font-family: 'Roboto', sans-serif;font-weight:400;background:#F6F8FA;}
 .floatleft {float:left}
 .floatright {float:right}
@@ -83,9 +83,9 @@ body {}
   font-weight: normal;
   font-style: normal;
 }
-/*----------------------------------------*/
+/*--------------------------------*/
 /*  2. Helper Class
-/*----------------------------------------*/
+/*--------------------------------*/
 .mg-tb-30{
 	margin:30px 0px;
 }
@@ -128,16 +128,16 @@ body {}
 .bg-purple {
     background: #D80027;
 }
-/*----------------------------------------*/
+/*--------------------------------*/
 /*  3. All Nested Class
-/*----------------------------------------*/
+/*--------------------------------*/
 .product-sales-chart, .analytics-info-cs, .tranffic-als-inner, .analytics-rounded, .single-new-trend, .personal-info-wrap, .author-widgets-single, .calender-inner, .product-status-wrap, .review-tab-pro-inner, .income-dashone-total, .analytics-edu-wrap, .analytics-sparkle-line, .analysis-progrebar, .sparkline8-list, .sparkline9-list, .sparkline7-list, .sparkline10-list, .sparkline12-list, .sparkline13-list, .sparkline14-list, .sparkline13-list, .sparkline11-list, .x-editable-list, .code-editor-single, .blog-details-inner, .charts-single-pro, .about-sparkline, .sparkline-list, .button-ad-wrap, .tab-content-details, .sparkline16-list, .sparkline15-list, .tinymce-single, .single-product-item, .courses-inner, .single-latest-item, .product-payment-inner-st, .profile-info-inner, .contact-panel, .widget-int-shape, .social-media-edu{
 	padding:20px;
 	background:#fff;
 }
-/*----------------------------------------*/
+/*--------------------------------*/
 /*  4. left sidebar
-/*----------------------------------------*/
+/*--------------------------------*/
 .all-content-wrapper {
     margin-left: 200px;
     transition: all 0.3s;
@@ -275,9 +275,9 @@ body {}
 #sidebar.active .left-custom-menu-adp-wrap ul.left-sidebar-menu-pro li > a {
     padding: 20px 20px;
 }
-/*----------------------------------------*/
+/*--------------------------------*/
 /*  4.1 Left Sidebar switcher
-/*----------------------------------------*/
+/*--------------------------------*/
 .menu-switcher-pro {
 	transition:all .4s ease 0s;
 }
@@ -292,9 +292,9 @@ body {}
 	background: none;
 	border:none;
 }
-/*----------------------------------------*/
+/*--------------------------------*/
 /*  5. Header Top
-/*----------------------------------------*/
+/*--------------------------------*/
 .header-top-menu .navbar-nav>li>a{
 	padding: 20px 20px;
 	color: #fff;
@@ -848,9 +848,9 @@ ul.setting-panel-list li{
 .sr-input-func:focus a {
     color: #006DF0;
 }
-/*----------------------------------------*/
+/*--------------------------------*/
 /*  6.  breadcrumb
-/*----------------------------------------*/
+/*--------------------------------*/
 .breadcome-heading .form-control, .sr-input-func .form-control:focus {
     border: 1px solid #ececec;
     font-size: 14px;
@@ -883,9 +883,9 @@ ul.breadcome-menu li a{
 ul.breadcome-menu li a:hover{
     color:#7266BA;
 }
-/*-----------------------
+/*-------------------
 	7. Star Rating css
--------------------------*/
+--------------------*/
 .review-title span {
     font-size: 14px;
     padding-top: 5px;
@@ -940,9 +940,9 @@ ul.breadcome-menu li a:hover{
     background: #ccc;
     border-color: #ccc;
 }
-/*----------------------------------------*/
+/*--------------------------------*/
 /*  8. Analytics
-/*----------------------------------------*/
+/*--------------------------------*/
 .payment-inner-pro i{
 	color:#006DF0;
 }
@@ -1114,9 +1114,9 @@ ul.breadcome-menu li a:hover{
 .skill .progress:nth-child(3) .progress-bar {
     background: #2BCDC0;
 }
-/*-----------------------
+/*-------------------
 9. widgets CSS
--------------------------*/
+--------------------*/
 .m-t-xl {
     margin-top: 40px;
 }
@@ -1203,9 +1203,9 @@ ul.breadcome-menu li a:hover{
 	color:#fff;
 }
 
-/*----------------------------------------*/
+/*--------------------------------*/
 /*  10. Event
-/*----------------------------------------*/
+/*--------------------------------*/
 .calender-inner .fc-state-default{
 	background:#006DF0;
 	color:#fff;
@@ -1213,9 +1213,9 @@ ul.breadcome-menu li a:hover{
 	text-shadow:none;
 	outline:none;
 }
-/*----------------------------------------*/
+/*--------------------------------*/
 /*  11. Professors
-/*----------------------------------------*/
+/*--------------------------------*/
 .hpanel .panel-body {
     background: #fff;
     border-radius: 2px;
@@ -1406,9 +1406,9 @@ ul.tab-custon-design, ul.tab-review-design {
 .ex-pro ul li i{
     margin-right:5px;
 }
-/*----------------------------------------*/
+/*--------------------------------*/
 /*  12. Student
-/*----------------------------------------*/
+/*--------------------------------*/
 .student-dtl h2{
 	font-size:18px;
 	color:#303030;
@@ -1428,9 +1428,9 @@ ul.tab-custon-design, ul.tab-review-design {
 .student-img img{
 	width:100%;
 }
-/*----------------------------------------*/
+/*--------------------------------*/
 /*  13. Courses
-/*----------------------------------------*/
+/*--------------------------------*/
 .courses-title h2{
 	font-size:18px;
 	color:#303030;
@@ -2060,9 +2060,9 @@ ul.two-part-sp li{
 	background-color: #e12503;
     border-color: #e12503;
 }
-/*----------------------------------------*/
+/*--------------------------------*/
 /*  13.1 Courses Info
-/*----------------------------------------*/
+/*--------------------------------*/
 .blog-box{
 	background:#fff;
 	-webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
@@ -2268,9 +2268,9 @@ ul.two-part-sp li{
 .coment-area textarea {
     padding-top: 10px;
 }
-/*----------------------------------------*/
+/*--------------------------------*/
 /*  13.2. course Payment
-/*----------------------------------------*/
+/*--------------------------------*/
 #myTab4.tab-review-design li a {
     padding-right: 40px;
     text-transform: capitalize;
@@ -2321,9 +2321,9 @@ ul.two-part-sp li{
 .payment-adress.mg-t-15{
 	margin-top:0px;
 }
-/*----------------------------------------*/
+/*--------------------------------*/
 /*  14. Library
-/*----------------------------------------*/
+/*--------------------------------*/
 .add-product a {
     float: right;
     position: absolute;
@@ -2425,9 +2425,9 @@ button.pd-setting-ed {
     padding: 20px 7px;
     border-top: 1px solid #e9ecef;
 }
-/*----------------------------------------*/
+/*--------------------------------*/
 /*  15. Inbox
-/*----------------------------------------*/
+/*--------------------------------*/
 .inbox-bt-mg{
     margin-bottom:15px;
 }
@@ -2671,9 +2671,9 @@ td.text-right.mail-date {
 .hpanel.email-compose .panel-body{
 	padding:0px;
 }
-/*----------------------------------------*/
+/*--------------------------------*/
 /*  16. Google Map
-/*----------------------------------------*/
+/*--------------------------------*/
 #map, #map1, #map2, #googleMap, #maplan, #map6, #map7, #map8 {
     height: 100%;
 }
@@ -2681,9 +2681,9 @@ td.text-right.mail-date {
     width: 100%;
     height: 300px;
 }
-/*----------------------------------------*/
+/*--------------------------------*/
 /*  17. Images Cropper
-/*----------------------------------------*/
+/*--------------------------------*/
 .img-preview-custom{
 	height: 130px;
     width: 200px;
@@ -2722,9 +2722,9 @@ td.text-right.mail-date {
 .images-cropper-pro .btn{
 	margin:5px 0px;
 }
-/*----------------------------------------*/
+/*--------------------------------*/
 /*  18. Form Element
-/*----------------------------------------*/
+/*--------------------------------*/
 .sparkline8-graph .basic-login-inner, .sparkline8-graph .login-social-inner, .sparkline9-graph .basic-login-form-ad, .sparkline11-graph .basic-login-form-ad{
 	text-align:left;
 }
@@ -4327,9 +4327,9 @@ div#sparklinehome canvas {
 .pwstrength_viewport_progress .progress, .pwstrength_viewport_progress2 .progress, .pwstrength_viewport_progress4 .progress, .form-group.mg-b-pass {
 	margin-bottom:0px;
 }
-/*----------------------------------------*/
+/*--------------------------------*/
 /*  19. Mini Sidebar
-/*----------------------------------------*/
+/*--------------------------------*/
 #sidebar.active .sidebar-nav .metismenu {
     margin-top: 12px;
 }
@@ -4373,9 +4373,9 @@ div#sparklinehome canvas {
 .edu-tab1 .nav-tabs{
 	border-bottom: 0px solid #ddd;
 }
-/*----------------------------------------*/
+/*--------------------------------*/
 /*  20. Custom Scroll
-/*----------------------------------------*/
+/*--------------------------------*/
 .comment-scrollbar, .timeline-scrollbar, .messages-scrollbar, .project-list-scrollbar {
     height: 580px;
 }
@@ -4389,9 +4389,9 @@ div#sparklinehome canvas {
 }
 .mCS-light-1.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{ background-color: #006DF0; }
 .mCS-light-1.mCSB_scrollTools .mCSB_draggerRail{ background-color: #ccc; } 
-/*-----------------------
+/*-------------------
 21. Wizard CSS
--------------------------*/
+--------------------*/
 .wizard > .steps{
     position: relative;
     display: block;
@@ -4652,9 +4652,9 @@ div#sparklinehome canvas {
 .c3-align-dlt{
 	display:none;
 }
-/*----------------------------------------*/
+/*--------------------------------*/
 /*  22. Notification
-/*----------------------------------------*/
+/*--------------------------------*/
 .notification-bt .btn{
 	border-radius:3px;
 }
@@ -4709,9 +4709,9 @@ div#sparklinehome canvas {
 .chart-ds-n-ex{
 	display:none;
 }
-/*----------------------------------------*/
+/*--------------------------------*/
 /*  23. footer
-/*----------------------------------------*/
+/*--------------------------------*/
 .footer-copy-right p {
     margin: 0px;
     font-size: 15px;
